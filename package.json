@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/skamok/MySQLAPI/issues"
   },
-  "homepage": "https://github.com/skamok/MySQLAPI#readme"
+  "homepage": "https://github.com/skamok/MySQLAPI#readme",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
 }
