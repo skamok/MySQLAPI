@@ -5,9 +5,9 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="public/css/my.css" rel="stylesheet" type="text/css"
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="public/css/my.css" rel="stylesheet" type="text/css" <!-- Bootstrap CSS -->
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+	<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/solar/bootstrap.min.css" rel="stylesheet" integrity="sha384-h5kYMLFNMyLXdVYK3MKZeOfXMdU6XqV1do5KyjoYZGlW1FJOj+5qr9u1d7NNCH4N" crossorigin="anonymous">
 	<title>KSMDev</title>
 </head>
 
@@ -32,9 +32,10 @@
 	<!-- Разметка -->
 	<div class="container-fluid h-100">
 		<div class="row h-100">
-			<div class="col-2 bg-success">
-				<div class="dropdown">
-					<button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<div class="col-2 bg-default">
+				<p class="text-center font-weight-bold" style="font-size: 125%;">Фильтр</p>
+				<div class="dropdown my-1">
+					<button class="btn btn-secondary dropdown-toggle btn-block text-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Регион
 					</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -43,8 +44,8 @@
 						<a class="dropdown-item" href="#">Something else here</a>
 					</div>
 				</div>
-				<div class="dropdown">
-					<button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<div class="dropdown my-1">
+					<button class="btn btn-secondary dropdown-toggle btn-block text-right" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Работник
 					</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -53,16 +54,29 @@
 						<a class="dropdown-item" href="#">Something else here</a>
 					</div>
 				</div>
-				<div class="nav flex-column nav-pills text-white" role="tablist" aria-orientation="vertical">
-					<a class="nav-link active" data-toggle="pill">Переработка</a>
-					<a class="nav-link" data-toggle="pill">Отдых</a>
-					<a class="nav-link" data-toggle="pill">Свод</a>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+						Дежурство
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+						Отдых
+					</label>
+				</div>
+				<div class="form-check">
+					<label class="form-check-label">
+						<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+						Свод
+					</label>
 				</div>
 			</div>
 			<div class="col-8 bg-light">
 				Two of three columns
 			</div>
-			<div class="col-2 bg-secondary">
+			<div class="col-2 bg-secondary text-dark">
 				Three of three columns
 			</div>
 		</div>
