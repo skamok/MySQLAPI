@@ -17,3 +17,10 @@ https://www.codeply.com/
 
 темы для бутсрапа 
 https://www.bootstrapcdn.com/bootswatch/
+
+Полезные материалы
+Описание setTimeout передача в нёё параметров
+https://getinstance.info/articles/javascript/settimeout-function-examples/
+
+Коллбэки
+https://habr.com/ru/company/nixsolutions/blog/282015/
